@@ -4,14 +4,14 @@ body {
 
 
 img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 
 .logo {
     color: #c7041b;
     font-family: Chiller, Roboto, sans-serif;
-    font-size: 34px;
+    font-size: 48px;
     font-weight: bold;
 }
 
@@ -35,17 +35,21 @@ img {
     font-size: 18px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 24px;
 }
 
-/*Contains the hero text and cappuccino image */
+/*Contains the hero text and monster image */
 .container2 {
     color: #e5e7eb;
     background-color: black;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: 0px;
+    align-items:flex-start;
+    justify-content: space-between;
+    padding: 48px;
+    gap: 16px;
 } 
 
 /*Controls style on hero text including button*/
@@ -53,7 +57,7 @@ img {
     display:flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 8px;
+    margin-bottom: 48px;
 }
 
 /*Controls style of hero main text */
@@ -71,12 +75,41 @@ img {
     flex-wrap: wrap;
 }
 
-/*controls style of list items in header */
+/*Controls style of list items in header */
 ul {
     list-style-type: none;
     display: flex;
-    gap: 16px;
+    gap: 24px;
+}
 
+/*Controls style of information header */
+.info-header {
+    color: #1f2937;
+    color: #e5e7eb;
+    background-color: black;
+    font-size: 36px;
+    font-weight: extra-bold;
+    display: flex;
+    justify-content: center;
+}
+/*Controls style of side by side images and text below*/
+.container3 {
+    color: #e5e7eb;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+    margin:0px;
+}
+.info {
+    flex:0 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 400px;
+    max-width: 250px;
+    text-align: center;
 }
 
 a {
@@ -95,4 +128,12 @@ button {
 /* Controls style of button 1 */
 .button1 {
     border: none;
+}
+
+.quote {
+    color: #1f2937;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+
 }
